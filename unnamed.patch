@@ -1,0 +1,1620 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1790667313103)
++++ b/.idea/.gitignore	(date 1790667313103)
+@@ -0,0 +1,10 @@
++# 默认忽略的文件
++/shelf/
++/workspace.xml
++# 基于编辑器的 HTTP 客户端请求
++/httpRequests/
++# 已忽略包含查询文件的默认文件夹
++/queries/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1790835585031)
++++ b/.idea/compiler.xml	(date 1790835585031)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++      <profile name="Annotation profile for device-work-order-system" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <processorPath useClasspath="false">
++          <entry name="$PROJECT_DIR$/../../../storage/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
++        </processorPath>
++        <module name="device-work-order-system" />
++      </profile>
++    </annotationProcessing>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="device-work-order-system" options="-parameters" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1790667404516)
++++ b/.idea/encodings.xml	(date 1790667404516)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1790667404520)
++++ b/.idea/jarRepositories.xml	(date 1790667404520)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://maven.aliyun.com/repository/central" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1790667404513)
++++ b/.idea/misc.xml	(date 1790667404513)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="KubernetesApiProvider">{}</component>
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1791017691951)
++++ b/.idea/vcs.xml	(date 1791017691951)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .mvn/wrapper/maven-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.mvn/wrapper/maven-wrapper.properties b/.mvn/wrapper/maven-wrapper.properties
+new file mode 100644
+--- /dev/null	(date 1790667307276)
++++ b/.mvn/wrapper/maven-wrapper.properties	(date 1790667307276)
+@@ -0,0 +1,3 @@
++wrapperVersion=3.3.4
++distributionType=only-script
++distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.16/apache-maven-3.9.16-bin.zip
+Index: src/main/java/cn/muzi/deviceworkordersystem/config/JwtUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/config/JwtUtil.java b/src/main/java/cn/muzi/deviceworkordersystem/config/JwtUtil.java
+new file mode 100644
+--- /dev/null	(date 1790925023016)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/config/JwtUtil.java	(date 1790925023016)
+@@ -0,0 +1,60 @@
++package cn.muzi.deviceworkordersystem.config;
++
++import cn.hutool.json.JSONUtil;
++import cn.muzi.deviceworkordersystem.dto.UserDTO;
++import io.jsonwebtoken.Jwts;
++import io.jsonwebtoken.SignatureAlgorithm;
++import io.jsonwebtoken.security.Keys;
++import jakarta.annotation.PostConstruct;
++import lombok.Data;
++import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
++import org.springframework.beans.factory.annotation.Value;
++import org.springframework.boot.context.properties.ConfigurationProperties;
++import org.springframework.context.annotation.Configuration;
++import org.springframework.stereotype.Component;
++
++import javax.crypto.SecretKey;
++import java.security.Key;
++import java.util.Base64;
++import java.util.Date;
++@Component
++public class JwtUtil {
++    @Value("${config.jwt.secret}")
++    private String secret;
++
++    @Value("${config.jwt.expiration}")
++    private Long expiration;
++    private SecretKey secretKey;
++    @PostConstruct
++    public void initKey(){
++        byte[] keyBytes = Base64.getDecoder().decode(secret);
++        secretKey = Keys.hmacShaKeyFor(keyBytes);
++    }
++   public String generateToken(UserDTO userDTO){
++        try {
++            return Jwts.builder()
++                    .setSubject(JSONUtil.toJsonStr(userDTO))
++                    .setIssuedAt(new Date(System.currentTimeMillis()))
++                    .setExpiration(new Date(System.currentTimeMillis()+expiration))
++                    .signWith(secretKey)
++                    .compact();
++        }
++        catch (Exception e){
++            e.printStackTrace();
++            return null;
++        }
++   }
++    public String parseToken(String token) {
++        try {
++            return Jwts.parserBuilder()
++                    .setSigningKey(secretKey)
++                    .build()
++                    .parseClaimsJws(token)
++                    .getBody()
++                    .getSubject();
++        }
++        catch (Exception e) {
++            return null;
++       }
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/config/MyBatisPlusConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/config/MyBatisPlusConfig.java b/src/main/java/cn/muzi/deviceworkordersystem/config/MyBatisPlusConfig.java
+new file mode 100644
+--- /dev/null	(date 1790921239257)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/config/MyBatisPlusConfig.java	(date 1790921239257)
+@@ -0,0 +1,17 @@
++package cn.muzi.deviceworkordersystem.config;
++import com.baomidou.mybatisplus.annotation.DbType;
++import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
++import com.baomidou.mybatisplus.extension.plugins.inner.InnerInterceptor;
++import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++
++@Configuration
++public class MyBatisPlusConfig {
++    @Bean
++    public MybatisPlusInterceptor mybatisPlusInterceptor() {
++        MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
++        interceptor.addInnerInterceptor(new PaginationInnerInterceptor(DbType.MYSQL));
++        return interceptor;
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/config/MyInterceptor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/config/MyInterceptor.java b/src/main/java/cn/muzi/deviceworkordersystem/config/MyInterceptor.java
+new file mode 100644
+--- /dev/null	(date 1790929141460)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/config/MyInterceptor.java	(date 1790929141460)
+@@ -0,0 +1,27 @@
++package cn.muzi.deviceworkordersystem.config;
++
++import cn.muzi.deviceworkordersystem.utils.LoginInterceptor;
++import cn.muzi.deviceworkordersystem.utils.RefreshTokenInterceptor;
++import jakarta.annotation.Resource;
++import org.springframework.context.annotation.Configuration;
++import org.springframework.data.redis.core.StringRedisTemplate;
++import org.springframework.web.servlet.HandlerInterceptor;
++import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
++import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
++@Configuration
++public class MyInterceptor implements WebMvcConfigurer {
++    @Resource
++    private StringRedisTemplate stringRedisTemplate;
++    @Resource
++    private JwtUtil jwtUtil;
++    @Override
++    public void addInterceptors(InterceptorRegistry registry) {
++        registry.addInterceptor(new LoginInterceptor())
++                .excludePathPatterns(
++                        "/user/login"
++                ).order(1);
++        registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate, jwtUtil))
++                .addPathPatterns("/**")
++                .order(0);
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/config/WebExceptionAdvice.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/config/WebExceptionAdvice.java b/src/main/java/cn/muzi/deviceworkordersystem/config/WebExceptionAdvice.java
+new file mode 100644
+--- /dev/null	(date 1790931390951)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/config/WebExceptionAdvice.java	(date 1790931390951)
+@@ -0,0 +1,22 @@
++package cn.muzi.deviceworkordersystem.config;
++
++import cn.muzi.deviceworkordersystem.entity.Result;
++import jakarta.servlet.http.HttpServletRequest;
++import lombok.extern.slf4j.Slf4j;
++import org.apache.commons.logging.Log;
++import org.apache.commons.logging.LogFactory;
++import org.springframework.context.annotation.Configuration;
++import org.springframework.web.bind.annotation.ControllerAdvice;
++import org.springframework.web.bind.annotation.ExceptionHandler;
++import org.springframework.web.bind.annotation.RestControllerAdvice;
++import org.springframework.web.servlet.ModelAndView;
++@Slf4j
++@RestControllerAdvice
++public class WebExceptionAdvice {
++
++    @ExceptionHandler(value = {Exception.class})
++    public Result handleException(Exception e, HttpServletRequest request) {
++        log.error(String.valueOf(e));
++        return Result.fail("服务端异常");
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/controller/AdminController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/controller/AdminController.java b/src/main/java/cn/muzi/deviceworkordersystem/controller/AdminController.java
+new file mode 100644
+--- /dev/null	(date 1791016875867)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/controller/AdminController.java	(date 1791016875867)
+@@ -0,0 +1,23 @@
++package cn.muzi.deviceworkordersystem.controller;
++
++import cn.muzi.deviceworkordersystem.dto.RegisterDTO;
++import cn.muzi.deviceworkordersystem.entity.Result;
++import cn.muzi.deviceworkordersystem.service.IUserService;
++import jakarta.annotation.Resource;
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestBody;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RestController;
++
++@RestController
++@RequestMapping("/admin")
++public class AdminController {
++    @Resource
++    IUserService userService;
++    @PostMapping("/register")//管理员注册账号接口
++    public Result register(@RequestBody RegisterDTO registerDTO)
++    {
++        System.out.println(registerDTO);
++        return userService.register(registerDTO);
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/controller/UserController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/controller/UserController.java b/src/main/java/cn/muzi/deviceworkordersystem/controller/UserController.java
+new file mode 100644
+--- /dev/null	(date 1790930383731)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/controller/UserController.java	(date 1790930383731)
+@@ -0,0 +1,24 @@
++package cn.muzi.deviceworkordersystem.controller;
++
++import cn.muzi.deviceworkordersystem.dto.LoginDTO;
++import cn.muzi.deviceworkordersystem.dto.RegisterDTO;
++import cn.muzi.deviceworkordersystem.entity.Result;
++import cn.muzi.deviceworkordersystem.service.IUserService;
++import jakarta.annotation.Resource;
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestBody;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RestController;
++import org.springframework.web.context.annotation.RequestScope;
++
++@RestController
++@RequestMapping("/user")
++public class UserController {
++    @Resource
++    IUserService userService;
++    @PostMapping("/login")//用户登录接口
++    public Result login(@RequestBody LoginDTO loginDTO)
++    {
++        return userService.login(loginDTO);
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/dto/LoginDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/dto/LoginDTO.java b/src/main/java/cn/muzi/deviceworkordersystem/dto/LoginDTO.java
+new file mode 100644
+--- /dev/null	(date 1790837347537)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/dto/LoginDTO.java	(date 1790837347537)
+@@ -0,0 +1,10 @@
++package cn.muzi.deviceworkordersystem.dto;
++
++import lombok.Data;
++
++@Data
++public class LoginDTO {
++    private String username;
++    private String password;
++    private String phone;
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/dto/RegisterDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/dto/RegisterDTO.java b/src/main/java/cn/muzi/deviceworkordersystem/dto/RegisterDTO.java
+new file mode 100644
+--- /dev/null	(date 1790919347832)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/dto/RegisterDTO.java	(date 1790919347832)
+@@ -0,0 +1,11 @@
++package cn.muzi.deviceworkordersystem.dto;
++
++import lombok.Data;
++
++@Data
++public class RegisterDTO {
++    private String username;
++    private String password;
++    private String phone;
++    private Integer role;
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/dto/UserDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/dto/UserDTO.java b/src/main/java/cn/muzi/deviceworkordersystem/dto/UserDTO.java
+new file mode 100644
+--- /dev/null	(date 1790929384126)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/dto/UserDTO.java	(date 1790929384126)
+@@ -0,0 +1,10 @@
++package cn.muzi.deviceworkordersystem.dto;
++
++import lombok.Data;
++
++@Data
++public class UserDTO {
++    private Long id;
++    private String username;
++    private Integer role;
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/entity/Result.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/entity/Result.java b/src/main/java/cn/muzi/deviceworkordersystem/entity/Result.java
+new file mode 100644
+--- /dev/null	(date 1790931120736)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/entity/Result.java	(date 1790931120736)
+@@ -0,0 +1,25 @@
++package cn.muzi.deviceworkordersystem.entity;
++
++import lombok.AllArgsConstructor;
++import lombok.Data;
++import lombok.NoArgsConstructor;
++
++import java.util.List;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++public class Result {
++    private boolean success;
++    private String message;
++    private Object data;
++    public static Result success(Object data) {return new Result(true,null,data);}
++    public static Result fail(String msg)
++    {
++        return new Result(false,msg,null);
++    }
++    public static Result ok(List<Object> data)
++    {
++        return new Result(true,null,data);
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/entity/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/entity/User.java b/src/main/java/cn/muzi/deviceworkordersystem/entity/User.java
+new file mode 100644
+--- /dev/null	(date 1790933258509)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/entity/User.java	(date 1790933258509)
+@@ -0,0 +1,33 @@
++package cn.muzi.deviceworkordersystem.entity;
++
++import com.baomidou.mybatisplus.annotation.IdType;
++import com.baomidou.mybatisplus.annotation.TableField;
++import com.baomidou.mybatisplus.annotation.TableId;
++import com.baomidou.mybatisplus.annotation.TableName;
++import lombok.AllArgsConstructor;
++import lombok.Data;
++import lombok.EqualsAndHashCode;
++import lombok.NoArgsConstructor;
++import lombok.experimental.Accessors;
++
++import java.io.Serializable;
++import java.time.LocalDateTime;
++
++@Data
++@EqualsAndHashCode(callSuper = false)
++@Accessors(chain = true)
++@TableName("sys_user")
++@NoArgsConstructor
++@AllArgsConstructor
++public class User implements Serializable {
++    @TableId(value = "id",type = IdType.AUTO)
++    private long id;
++    private String username;
++    private String password;
++    private Integer role;
++    private String phone;
++    private Integer status;
++    private Integer isDeleted;
++    private LocalDateTime createTime;
++    private LocalDateTime updateTime;
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/mapper/UserMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/mapper/UserMapper.java b/src/main/java/cn/muzi/deviceworkordersystem/mapper/UserMapper.java
+new file mode 100644
+--- /dev/null	(date 1790920181445)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/mapper/UserMapper.java	(date 1790920181445)
+@@ -0,0 +1,9 @@
++package cn.muzi.deviceworkordersystem.mapper;
++
++import cn.muzi.deviceworkordersystem.entity.User;
++import com.baomidou.mybatisplus.core.mapper.BaseMapper;
++import org.apache.ibatis.annotations.Mapper;
++
++@Mapper
++public interface UserMapper extends BaseMapper<User> {
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/service/impl/UserService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/service/impl/UserService.java b/src/main/java/cn/muzi/deviceworkordersystem/service/impl/UserService.java
+new file mode 100644
+--- /dev/null	(date 1790933258502)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/service/impl/UserService.java	(date 1790933258502)
+@@ -0,0 +1,83 @@
++package cn.muzi.deviceworkordersystem.service.impl;
++
++import cn.hutool.core.bean.BeanUtil;
++import cn.hutool.core.util.StrUtil;
++import cn.hutool.json.JSONUtil;
++import cn.muzi.deviceworkordersystem.config.JwtUtil;
++import cn.muzi.deviceworkordersystem.dto.LoginDTO;
++import cn.muzi.deviceworkordersystem.dto.RegisterDTO;
++import cn.muzi.deviceworkordersystem.dto.UserDTO;
++import cn.muzi.deviceworkordersystem.entity.Result;
++import cn.muzi.deviceworkordersystem.entity.User;
++import cn.muzi.deviceworkordersystem.mapper.UserMapper;
++import cn.muzi.deviceworkordersystem.service.IUserService;
++import cn.muzi.deviceworkordersystem.utils.RedisConstants;
++import cn.muzi.deviceworkordersystem.utils.RegexUtil;
++import cn.muzi.deviceworkordersystem.utils.UserHolder;
++import com.baomidou.mybatisplus.spring.service.impl.ServiceImpl;
++import jakarta.annotation.Resource;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.data.redis.core.StringRedisTemplate;
++import org.springframework.stereotype.Service;
++
++import java.time.LocalDateTime;
++import java.util.concurrent.TimeUnit;
++
++@Slf4j
++@Service
++public class UserService extends ServiceImpl<UserMapper,User> implements IUserService {
++    @Resource
++    JwtUtil jwtUtil;
++    @Resource
++    StringRedisTemplate stringRedisTemplate;
++    @Override
++    public Result login(LoginDTO loginDTO) {
++        if (loginDTO.getUsername().isEmpty()|| loginDTO.getPassword().isEmpty()||loginDTO.getPhone().isEmpty()) {
++            return Result.fail("数据不全，请重新填写");
++        }
++        if (!RegexUtil.isPhone(loginDTO.getPhone()))
++        {
++            return Result.fail("手机号格式不对");
++        }
++        User user=query().eq("phone", loginDTO.getPhone()).eq("password",loginDTO.getPassword()).one();
++        if (user==null)
++        {
++            return Result.fail("请联系管理员创建用户");
++        }
++        UserDTO userDTO = BeanUtil.copyProperties(user, UserDTO.class);
++        String token = RedisConstants.TOKEN_KEY+jwtUtil.generateToken(userDTO);
++        UserHolder.saveUser(userDTO);
++        stringRedisTemplate.opsForValue().set(token,JSONUtil.toJsonStr(userDTO),86400, TimeUnit.SECONDS);
++        return Result.success(token);
++    }
++
++    @Override
++    public Result register(RegisterDTO registerDTO) {
++
++            UserDTO userDTO = UserHolder.getUser();
++            if (UserHolder.getUser()==null)
++            {
++                return Result.fail("请登录账号");
++            }
++            Integer role = userDTO.getRole();
++            if (role == null || role != 1)
++            {
++                return Result.fail("当前账号权限不够");
++            }
++            long count=query().eq("username",registerDTO.getUsername()).count();
++            if (count>0)
++            {
++                return Result.fail("用户名已存在");
++            }
++            saveUser(registerDTO);
++            return Result.success("success");
++    }
++    public void saveUser(RegisterDTO registerDTO) {
++        User user=new User();
++        user.setUsername(registerDTO.getUsername());
++        user.setPassword(registerDTO.getPassword());
++        user.setPhone(registerDTO.getPhone());
++        user.setRole(registerDTO.getRole());
++        save(user);
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/service/IUserService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/service/IUserService.java b/src/main/java/cn/muzi/deviceworkordersystem/service/IUserService.java
+new file mode 100644
+--- /dev/null	(date 1790921283364)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/service/IUserService.java	(date 1790921283364)
+@@ -0,0 +1,13 @@
++package cn.muzi.deviceworkordersystem.service;
++
++import cn.muzi.deviceworkordersystem.dto.LoginDTO;
++import cn.muzi.deviceworkordersystem.dto.RegisterDTO;
++import cn.muzi.deviceworkordersystem.entity.Result;
++import cn.muzi.deviceworkordersystem.entity.User;
++import com.baomidou.mybatisplus.spring.service.IService;
++
++public interface IUserService extends IService<User> {
++    Result login(LoginDTO loginDTO);
++
++    Result register(RegisterDTO registerDTO);
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/utils/LoginInterceptor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/utils/LoginInterceptor.java b/src/main/java/cn/muzi/deviceworkordersystem/utils/LoginInterceptor.java
+new file mode 100644
+--- /dev/null	(date 1790929678194)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/utils/LoginInterceptor.java	(date 1790929678194)
+@@ -0,0 +1,29 @@
++package cn.muzi.deviceworkordersystem.utils;
++
++import cn.hutool.core.util.StrUtil;
++import cn.hutool.json.JSON;
++import cn.hutool.json.JSONUtil;
++import cn.muzi.deviceworkordersystem.config.JwtUtil;
++import cn.muzi.deviceworkordersystem.dto.UserDTO;
++import jakarta.annotation.Resource;
++import jakarta.servlet.http.HttpServletRequest;
++import jakarta.servlet.http.HttpServletResponse;
++import org.jspecify.annotations.Nullable;
++import org.springframework.data.redis.core.StringRedisTemplate;
++import org.springframework.web.servlet.HandlerInterceptor;
++public class LoginInterceptor implements HandlerInterceptor {
++    @Override
++    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
++            if (UserHolder.getUser()==null)
++            {
++                response.setStatus(401);
++                return false;
++            }
++            return  true;
++    }
++
++    @Override
++    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable Exception ex) throws Exception {
++            UserHolder.removeUser();
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/utils/RedisConstants.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/utils/RedisConstants.java b/src/main/java/cn/muzi/deviceworkordersystem/utils/RedisConstants.java
+new file mode 100644
+--- /dev/null	(date 1790926333746)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/utils/RedisConstants.java	(date 1790926333746)
+@@ -0,0 +1,5 @@
++package cn.muzi.deviceworkordersystem.utils;
++
++public class RedisConstants {
++    public static final String TOKEN_KEY="JWT:token:";
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/utils/RefreshTokenInterceptor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/utils/RefreshTokenInterceptor.java b/src/main/java/cn/muzi/deviceworkordersystem/utils/RefreshTokenInterceptor.java
+new file mode 100644
+--- /dev/null	(date 1790932906547)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/utils/RefreshTokenInterceptor.java	(date 1790932906547)
+@@ -0,0 +1,45 @@
++package cn.muzi.deviceworkordersystem.utils;
++
++import cn.hutool.core.util.StrUtil;
++import cn.hutool.json.JSONUtil;
++import cn.muzi.deviceworkordersystem.config.JwtUtil;
++import cn.muzi.deviceworkordersystem.dto.UserDTO;
++import jakarta.annotation.Resource;
++import jakarta.servlet.http.HttpServletRequest;
++import jakarta.servlet.http.HttpServletResponse;
++import org.jspecify.annotations.Nullable;
++import org.springframework.boot.webmvc.autoconfigure.WebMvcProperties;
++import org.springframework.data.redis.core.StringRedisTemplate;
++import org.springframework.web.servlet.HandlerInterceptor;
++
++import java.util.concurrent.TimeUnit;
++
++public class RefreshTokenInterceptor implements HandlerInterceptor {
++    private JwtUtil jwtUtil;
++    private StringRedisTemplate stringRedisTemplate;
++    public RefreshTokenInterceptor(StringRedisTemplate stringRedisTemplate, JwtUtil jwtUtil) {
++        this.stringRedisTemplate = stringRedisTemplate;
++        this.jwtUtil = jwtUtil;
++    }
++    @Override
++    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
++        String token= request.getHeader("authorization");
++        if (StrUtil.isBlank(token)){
++            return true;
++        }
++        String jwt = token.substring(RedisConstants.TOKEN_KEY.length());
++        String s = stringRedisTemplate.opsForValue().get(token);
++        if (StrUtil.isBlank(s)){
++            return true;
++        }
++        UserDTO userDTO= JSONUtil.toBean(jwtUtil.parseToken(jwt),UserDTO.class);
++        UserHolder.saveUser(userDTO);
++        stringRedisTemplate.expire(token,86400, TimeUnit.SECONDS);
++        return true;
++    }
++
++    @Override
++    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable Exception ex) throws Exception {
++        UserHolder.removeUser();
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/utils/RegexUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/utils/RegexUtil.java b/src/main/java/cn/muzi/deviceworkordersystem/utils/RegexUtil.java
+new file mode 100644
+--- /dev/null	(date 1790922094373)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/utils/RegexUtil.java	(date 1790922094373)
+@@ -0,0 +1,10 @@
++package cn.muzi.deviceworkordersystem.utils;
++
++public class RegexUtil {
++    public static boolean isPhone(String phone) {
++        if (phone == null || phone.isBlank()) {
++            return false;
++        }
++        return phone.matches("1([38][0-9]|4[579]|5[0-3,5-9]|6[6]|7[0135678]|9[89])\\d{8}");
++    }
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/utils/UserHolder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/utils/UserHolder.java b/src/main/java/cn/muzi/deviceworkordersystem/utils/UserHolder.java
+new file mode 100644
+--- /dev/null	(date 1790841853974)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/utils/UserHolder.java	(date 1790841853974)
+@@ -0,0 +1,11 @@
++package cn.muzi.deviceworkordersystem.utils;
++
++import cn.muzi.deviceworkordersystem.dto.UserDTO;
++import cn.muzi.deviceworkordersystem.entity.User;
++
++public class UserHolder{
++    private static final ThreadLocal<UserDTO> userHolder = new ThreadLocal<UserDTO>();
++    public static void saveUser(UserDTO user){userHolder.set(user);}
++    public static UserDTO getUser(){return userHolder.get();}
++    public static void removeUser(){userHolder.remove();}
++}
+Index: src/main/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplication.java b/src/main/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplication.java
+new file mode 100644
+--- /dev/null	(date 1790923573610)
++++ b/src/main/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplication.java	(date 1790923573610)
+@@ -0,0 +1,16 @@
++package cn.muzi.deviceworkordersystem;
++
++import cn.muzi.deviceworkordersystem.config.JwtUtil;
++import org.mybatis.spring.annotation.MapperScan;
++import org.springframework.boot.SpringApplication;
++import org.springframework.boot.autoconfigure.SpringBootApplication;
++import org.springframework.boot.context.properties.EnableConfigurationProperties;
++
++@SpringBootApplication
++public class DeviceWorkOrderSystemApplication {
++
++    public static void main(String[] args) {
++        SpringApplication.run(DeviceWorkOrderSystemApplication.class, args);
++    }
++
++}
+Index: src/main/resources/application.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/application.yaml b/src/main/resources/application.yaml
+new file mode 100644
+--- /dev/null	(date 1790933008905)
++++ b/src/main/resources/application.yaml	(date 1790933008905)
+@@ -0,0 +1,36 @@
++server:
++  port: 8080
++spring:
++  application:
++    name: device-work-order-system
++  datasource:
++    driver-class-name: com.mysql.cj.jdbc.Driver
++    url: jdbc:mysql://localhost:3306/device_hope_system?useSSL=false&serverTimezone=UTC
++    username: root
++    password: 123456
++  data:
++    redis:
++      host: 192.168.86.129
++      port: 6379
++      password: 1234
++      lettuce:
++        pool:
++          max-active: 10
++          max-idle: 10
++          min-idle: 1
++          time-between-eviction-runs: 10s
++  jackson:
++    default-property-inclusion: non_null
++mybatis-plus:
++  type-aliases-package: cn.muzi.deviceworkordersystem.entity
++  configuration:
++    map-underscore-to-camel-case: true
++rocketmq:
++  name-server: 127.0.0.1:9876
++logging:
++  level:
++    cn.muzi: debug
++config:
++  jwt:
++    secret: Zm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFy
++    expiration: 86400000
+Index: src/test/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplicationTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplicationTests.java b/src/test/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplicationTests.java
+new file mode 100644
+--- /dev/null	(date 1790667318969)
++++ b/src/test/java/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplicationTests.java	(date 1790667318969)
+@@ -0,0 +1,13 @@
++package cn.muzi.deviceworkordersystem;
++
++import org.junit.jupiter.api.Test;
++import org.springframework.boot.test.context.SpringBootTest;
++
++@SpringBootTest
++class DeviceWorkOrderSystemApplicationTests {
++
++    @Test
++    void contextLoads() {
++    }
++
++}
+Index: target/classes/application.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/application.yaml b/target/classes/application.yaml
+new file mode 100644
+--- /dev/null	(date 1790933009128)
++++ b/target/classes/application.yaml	(date 1790933009128)
+@@ -0,0 +1,36 @@
++server:
++  port: 8080
++spring:
++  application:
++    name: device-work-order-system
++  datasource:
++    driver-class-name: com.mysql.cj.jdbc.Driver
++    url: jdbc:mysql://localhost:3306/device_hope_system?useSSL=false&serverTimezone=UTC
++    username: root
++    password: 123456
++  data:
++    redis:
++      host: 192.168.86.129
++      port: 6379
++      password: 1234
++      lettuce:
++        pool:
++          max-active: 10
++          max-idle: 10
++          min-idle: 1
++          time-between-eviction-runs: 10s
++  jackson:
++    default-property-inclusion: non_null
++mybatis-plus:
++  type-aliases-package: cn.muzi.deviceworkordersystem.entity
++  configuration:
++    map-underscore-to-camel-case: true
++rocketmq:
++  name-server: 127.0.0.1:9876
++logging:
++  level:
++    cn.muzi: debug
++config:
++  jwt:
++    secret: Zm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFy
++    expiration: 86400000
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(date 1790921451081)
++++ b/pom.xml	(date 1790921451081)
+@@ -0,0 +1,154 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++    <parent>
++        <groupId>org.springframework.boot</groupId>
++        <artifactId>spring-boot-starter-parent</artifactId>
++        <version>4.1.1</version>
++        <relativePath/> <!-- lookup parent from repository -->
++    </parent>
++    <groupId>cn.muzi</groupId>
++    <artifactId>device-work-order-system</artifactId>
++    <version>0.0.1-SNAPSHOT</version>
++    <name>device-work-order-system</name>
++    <description>device-work-order-system</description>
++    <url/>
++    <licenses>
++        <license/>
++    </licenses>
++    <developers>
++        <developer/>
++    </developers>
++    <scm>
++        <connection/>
++        <developerConnection/>
++        <tag/>
++        <url/>
++    </scm>
++    <properties>
++        <java.version>17</java.version>
++    </properties>
++    <dependencies>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-data-redis</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-webmvc</artifactId>
++        </dependency>
++
++        <dependency>
++            <groupId>com.mysql</groupId>
++            <artifactId>mysql-connector-j</artifactId>
++            <scope>runtime</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-data-redis-test</artifactId>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-webmvc-test</artifactId>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>com.baomidou</groupId>
++            <artifactId>mybatis-plus-spring-boot4-starter</artifactId>
++            <version>3.5.17</version>
++        </dependency>
++        <dependency>
++            <groupId>org.apache.commons</groupId>
++            <artifactId>commons-pool2</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>com.baomidou</groupId>
++            <artifactId>mybatis-plus-jsqlparser</artifactId>
++            <version>3.5.17</version>
++        </dependency>
++
++        <dependency>
++            <groupId>org.apache.rocketmq</groupId>
++            <artifactId>rocketmq-spring-boot-starter</artifactId>
++            <version>2.3.3</version>
++        </dependency>
++        <dependency>
++            <groupId>com.github.xiaoymin</groupId>
++            <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
++            <version>4.5.0</version>
++        </dependency>
++        <dependency>
++            <groupId>io.jsonwebtoken</groupId>
++            <artifactId>jjwt-api</artifactId>
++            <version>0.11.5</version>
++        </dependency>
++        <dependency>
++            <groupId>io.jsonwebtoken</groupId>
++            <artifactId>jjwt-impl</artifactId>
++            <version>0.11.5</version>
++        </dependency>
++        <dependency>
++            <groupId>io.jsonwebtoken</groupId>
++            <artifactId>jjwt-jackson</artifactId>
++            <version>0.11.5</version>
++        </dependency>
++        <dependency>
++            <groupId>cn.hutool</groupId>
++            <artifactId>hutool-all</artifactId>
++            <version>5.8.36</version>
++        </dependency>
++    </dependencies>
++
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.springframework.boot</groupId>
++                <artifactId>spring-boot-maven-plugin</artifactId>
++            </plugin>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <executions>
++                    <execution>
++                        <id>default-compile</id>
++                        <phase>compile</phase>
++                        <goals>
++                            <goal>compile</goal>
++                        </goals>
++                        <configuration>
++                            <annotationProcessorPaths>
++                                <path>
++                                    <groupId>org.projectlombok</groupId>
++                                    <artifactId>lombok</artifactId>
++                                </path>
++                            </annotationProcessorPaths>
++                        </configuration>
++                    </execution>
++                    <execution>
++                        <id>default-testCompile</id>
++                        <phase>test-compile</phase>
++                        <goals>
++                            <goal>testCompile</goal>
++                        </goals>
++                        <configuration>
++                            <annotationProcessorPaths>
++                                <path>
++                                    <groupId>org.projectlombok</groupId>
++                                    <artifactId>lombok</artifactId>
++                                </path>
++                            </annotationProcessorPaths>
++                        </configuration>
++                    </execution>
++                </executions>
++            </plugin>
++        </plugins>
++    </build>
++
++</project>
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/config/JwtUtil.class b/target/classes/cn/muzi/deviceworkordersystem/config/JwtUtil.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e7a20a9912b25273d5b886550f13e2563661a8a7
+GIT binary patch
+literal 2958
+zc$}41X;&0S6ure_!_Xosu5lrXWLQFrQPkkZfJSi;;vmM5tr-evnCYH$*MOrj`@WjQ
+zZ2k&!PNI;UlatT+L;04ITRr2j4X7WwYkTk2eed0RRsa0=$6o+W;%)?GC^t}Hq7v%_
+z>Za@&+e+E)gf%caC6h{E-3iBa)G2}TX!CFcRj4))F;N5ap?Fp~DJy0Nvh%P&WJ0Q5
+zne@h_FR&}x9A7TdSXk|<MlCiNs57w<n*`dDu9eQ-aI7&o<0R#*=TCb+<$_$GWZFu4
+z?zl5y_06g)v_)8fO!|`eHpLe(CzS8F6I~J1V~c^UCbnU_!1mQ3(8^fY6WAJEX{LE3
+z7Qs$DWnh<y-Pj|r+wrWaz;kEisPd+zYY{}&cT~>0D06|p`pLANOibDwo%2HfM`HO1
+zT(^>bE~7jv5yGZG=zoKWr?F3<I(RruxT`5d(1-&DnoK-{s6hR4FpLc`7^7Jy6*{+v
+z(Jvtr%dgX13tA1dnRpiM0^1n>$*l6cRH$L~B?d0#LtU-BKF%;I0!@qKl&45n^UBcG
+z;2=5-95V47NQ#}S!ysb<sS?=&+YXk>!&+V#=oF}3$Z)T%WCX`>+`#iDx^Q9%sS_cY
+z1U52lzI4@)la~EXD&+(rzxyIMf>Zh|oEE5v_B9V{N4ibK&?8VopcjH5E62Ktv^^SM
+zy6f6Fb+*r%IENSLvAmvfd|Nr5OLU7Ij(Z_{FQCuBMH6w2zIN#{(~)8`Y^SnPgS%v6
+zK!aOPaA%8V^~#GTE+ZjO6*v>_RYy$<bQCZzrtR9WwV^8}hH;h5N_y#xt+P}gEs=8r
+z*90~%OrO1;lo<^sf|oF2;uT$BHe@KP63R|a5BYXdYEHjq;&r@17c#aVNWVyo#?t&9
+zTr5R^qevPUGa)f9(C{dQe54W#2{DJ~?dW3%W#!J3CLBx&RECF+1!678)JP$1z%}6^
+zBd}vtNoGBaMNi6h(m~%W+1dP<2P5DvJ^};EL>4p5NC_F{l4UyPjpdf-vT&pgTxU&O
+zu9=5ZgIU}#aZ^)5SNr1G-EleVDjuj|CvZknvfFh%6|#~09gchcgca!QPmKF^I;`*3
+zsI=X{8YibbKWEuR1uLX?7vnmkI|SKyGk*cJPtB_Ke6hU6Qn_S$;Z$*{q9?5D8{&>D
+zFJ;rC(jT%3O5Yb=(oPNAzN5#5$qF^8OF(=4NiHGcGxXgUvZ!iW=3+S|X{Br=Ca{k|
+zowj{tFLrCt3seu|q5Ld^Oe#)DR}!)u((x5I9eo6VF<uB)NRZy4fl_5xK+u^j@e+qn
+zgU#kO1zMkA8=?%4YrmZ-1goxJs!4B*RAn9&mB@pTt_3feN>a51*h-aGh$OtMpOohu
+zZQU$Hw_Pg;w3H+cQTozTxs0@WSd=`MwVVdc3oheHng)SRgi*NXdB@iBodcBf&&LJ?
+z-r}f+?Ja(92Y81IEX^wy-sJ*sXiipef^Q`L-{Z()E7(@HJb?I>oie=7|GIE;3qIiA
+z%nRT{e8g7ZW3HBk%7bh*occK!Ex%#?eQb`mw9aA2@7TLwtCnzqJw&q?o6!*3+?v-b
+z*sMV{KEbC2)OzpF!ks?H7lobvh7nphKZpI?pm`ov8UDnPYjZgI04L{hrZ^;!-upOj
+zhtvIK;CSym2FoyyA%T1SZTIoAxEK0#2Hh;_<sr%zMEKv&@HC<h2Z*%^oqV8lAxgRZ
+zlx*Sc*~;j)g&s6eFGj3i;;Yb?^95gY?`wQR`?uMzg7_ER26y>Z$53!dJN6yEFF1Br
+zzgyWx=kRJCsjZRndTgD?wC=ts=>6<GavFRAINwi2;7tr3(7^y5f_|oK!eKrakI;cm
+z%5_lk7-fzZK{s*7hoGZH&{5n8`E)y<0J#YAose)pg!%ljn4zE8{>(4Jem(vC1=arp
+DhM*60
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/config/MyBatisPlusConfig.class b/target/classes/cn/muzi/deviceworkordersystem/config/MyBatisPlusConfig.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..11b73d2a62010ec44fb1039c6e6e98c34532b1c4
+GIT binary patch
+literal 1221
+zc$}@1+invv5Qcx}+-=&F7DCJUOwt0rLr4LnHc+Wz3x!6Ja_Q{4!6j=)dnkmb0xpO|
+zB_4o>Ld<SL6qOb=h`ktl#-4Aq|9F1<{PrEd6I3mvkj^7hL>4)Qg?(`#cvt8Sf7RZX
+zPRNjZth5TBGNdcjW*!BGb;o$TEsUpJ6LGKK7NH7y-6-JlLnw8ijOOHaln(gz@N|bx
+zw{$3dNA^PFTgb;%XBl2h!BSdFpYI5A=$6r2u|Gkb!5rrEC>61QGYqRIqJ`EbOc4B8
+zyV37ShU|80_qEM%&pv%t&4PucSh=$dyfRH@wHZrLF5*0v8J2|W9{m}H&A$*&66YwT
+z7PssI!$U`NFZ!ssD-V<--y8p(@m=W${UDSccZ}Xs9ctFb?`GAL2t%fBT#~0`D=l9}
+zUR(MN(e6@Y(Ke3gHifTZe-zAwZ&kqX$o{u-HHNZx?1N!=Ua3wa$MNru3e2iWYW=@3
+zSKdTARGw_AK#>mX<93r4_if{Mc+m5e?(F%(OT>s32&us2%h-@Y6U*8)5s^1ltY`TT
+zi5|oQO8q=7b(j_TiC4pQtkA&6UkWT9d9oMD<Fqnbv#SHJ&&ly6vbiK^;WF9c@B*&j
+zDy<CH2$o8c8^|Qk<wN9K1I*ZKhp<{-P#j?KE6%Nb8uR9nCOd}$?aC-6-10DY#4XV5
+W-oQ=b-x}4won+rh?A>v+0{jBTX==Ry
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/config/MyInterceptor.class b/target/classes/cn/muzi/deviceworkordersystem/config/MyInterceptor.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..afabc587dedd21b6b3fadeb8c08fa6a54d4f4b42
+GIT binary patch
+literal 1973
+zc$}?O>rN9v6#j-57Ro9J$W6h!mZFRo#7j}R#0#XLDF`9{aoZirz;>6+PPzEc2k>D`
+z3?v$T03XVDW~tCBk&=+j&e@$g^PTUUIp@sJUtfO!c!J3U>JYOKw^5G<hSpVQ!{MIe
+z7x?Sks>o}GhEeHD{gfe=99Xc>$S|Dud9n0Ca#w7~yx0uXTA*B^!tGFtA}?v_g*+1!
+zq(9|rq4Hu~2Py#zu>_i7TR3IoG+G#*2dcosbtV16vT}+M65kX#9tySL3C;6?zbp&f
+z@%=zMS_VF^K+KAQ47J*3IPJJ@#R9{}WacR7SB~#`LRD-_4;;Cv7CzB@+QONtXwGSa
+z+K6_BW?mvZ?wJ53a2A~wx@>f#hhgf(2r#sZt-M!q#T!Sj&`Vl=$nZY-F7r356Ls8p
+zbk4?k^fA;&X~8g?oI2UqUSLSql7v~YtVFmnAFPSWTx`N6T()q<##LNnxch&oGO?NM
+zsuXJvqu6DIE5mtFT=yI;7#<z!rt4^jE2BwZN|eK1wKZ)x-LR3w0E4x<so#<V3`3ck
+zxJ~crQ}FvSXiE7e!|LHRPz#si868+?#1ORyo=Ta+zis1=$>kO*%F5icaF1c)_*t+h
+zax)wG$!NZ$Ogi;sOTLyxu^>a4^ThbRF6DP0W%rt+$j1tZtO$b=om`qBJ{h=lPAwVf
+zi`h~!C)B({7z}NhAn$k!j*{lTJQ>$3l0b)R3rJOlr1v6FF+)JpNB5<gS{}ump;7HO
+zz?UZkOD$_g=#_vD&Y+M2kxtA-!FwU2FjYA@WLgQs$f4%Rq!wGc(&nF2+^b{C_)B#C
+zPyy0dXKInYhv{BwAbFo;ohgTZ=9syvXdIzGPLh$VPwj$zj+P&kl>r+MqcKvzBRnQa
+zjRT{kWj24J**cQrgWq5+?V@Q1iTHQ4F2&l~=628#-$Cypt@SUZzThIg*LRUR(78oA
+zJZ5wb4ENJ52ehMuo^Etf8|)$y-DI){W9W?tb?zB06Ea^<@RW!>Gc+0f7_hNu9N%|+
+G0{9KVA6-2F
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/config/WebExceptionAdvice.class b/target/classes/cn/muzi/deviceworkordersystem/config/WebExceptionAdvice.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..79c0ebce75126881fdff93e1ef760878870a1052
+GIT binary patch
+literal 1450
+zc$}3~%Tg0T6g?dX6XIwvh^Y7g6--2JANUMfMNuMFMX`Xwg{#h_69y*J*wYE((xp}Y
+zfg9H@6kQlC%Mb8B(7&*}Gl@|HK3L4$?mPFMbMHMp{rTI6PXMlCJc$@OEOgq4ql=+u
+zNz?@QgkR<}g(c}2hOTkfcg+okj!br;8wqq<NZQx|o8hwK^Gfxx%Zsw+I&xL%Wu=Q!
+z2Wx?m749g%<d*q;S-APgkt@bk{zNehBrs2v8Pa*B%RKN(V@o`*%4Ml@N$f((LXVBz
+zNdH#QoYAgNNmfmGRXI~)7|G<@>&<2J?HRcp*n>U`du{Y%A3?TrGQ_3UifmtIb9Qzi
+zfddSwFVCNCJbm%?<*SX4Pd4iHBo5+`g~K+EV31+-?~{<eam^Z^l|j{`nRb?h>oH7h
+zMVH?O5>4wUj#)TvV;Cb0{q3zy3CAeC#?W1s=0~@~ztT>6A_$0elMoC8vsEIi$lHF+
+z4cvk!CwyNS5y}{Z+Igx{P|N(5^raR?7Ad83QWZ(vRNnRF-D;&E^}L|ONNGoS3qrf$
+zzUk~Vi!LEu{YT4xJVr#AS`>cKldTU7m0!DS`E%r47TO3NNL}-!;fuzs@M(I@H5{|@
+zVO0iZn*uN}YNT&VN;;~#0m_j5Z+<$UccfWV#d|`FiZn#bu)itA!WKeYYiPF;9-mT}
+z5?0JtWq}u5zsN-^_Gf9+(a=JT<I&H=kQjHo=6{}?Q&sKADL0g;fAiGOguOD{_-|So
+zm6=q&(aIyzrgRvht0YF35W|7+G9i0{c3osMWIM>lqg|GEoGc?7Klu)9ofa{iYz6}<
+zjMCd~1mF}-N1$gYsUu3B53e|~={K-O>)81oy)mTs*D>(Ag_Mj+=_Qms5!zrQqlp%-
+z&f;9ekj8mjpy)ALcgM&LasU_U*+l`D=(+p=%%SiEuCzKBijpZMov35zEv)sZ%AZ~A
+QB+RQ(J=Y?z(3=Ck1CpVQVE_OC
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/controller/AdminController.class b/target/classes/cn/muzi/deviceworkordersystem/controller/AdminController.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ad24243d7863a8ae39395dc1e63d0fea97a64327
+GIT binary patch
+literal 1209
+zc$}3}Yikoh6g`vX(L8KxjMb`DTVHJj2Sh=P4{Aja(g$hH7eSb0$8^%&oj5z25`UF~
+zAo{@{;ExjTY(ioS8uMZH&b@Q)xo7U|{rT(r4**Ybr+^e@a!8kuL6%{mBYJ}SB5d>B
+zW=FOxL-vUZm3_uAv$o#IV;1=w3MCX#VtCXFc@Te8+><@klE>N{Y2!%~^&=|--qN8p
+z+V`d5n_i&8t&z`Aj3a6GrEz%-4{HBriUvUb`pr12TEraYb66<hEXoY`r>9_;HL|Vf
+zoD{uVn;^oon%9T$mj}Dm^$B<xT4no`62-o)GAz|&iUhKuBGvTeW*BNKtkPk`uw3hi
+zBVnxIVib0nIyQ7uhV+*9NbY=1g>okjn$jEy;$SG(bW8XRVU+WS!L&V8MEZDwz`wr_
+zRV<qERT=n{y`f)eTiQeI?Fl0SNm0`Cu%=C$M_r@B_Inq0Ec{qDc~gbnpEuvrk=+*E
+zE&+)u(-VG7*UIzpYptGa=BUhxuKs_)y8IB!$iC2Cp9&WClfJ)Fu9=lny}9RRg#P_0
+zxFdU_wbP^~vc|2*a^ciqg$6N2Bg|;gD3U!#yDZrX*%aAK;+-dtlXbYv##gY<$?@V4
+z3>u*e^eqhlxQL~Mlm-gvB>6d^U7_N}7v%1K!<iI5oua5D6pI7ckizXQ;WC|Ham0)q
+nBogN+v`p*jTd)Y%aGhc~r*9=;T}{3>5@?xrH_6@_!EgTtnq*fG
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/controller/UserController.class b/target/classes/cn/muzi/deviceworkordersystem/controller/UserController.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e45fab0978e8853348e348916d134973bb7e8fe8
+GIT binary patch
+literal 1190
+zc$}3}+invv5Is(FX_L@~6aobbwA|W)u!KN>!bMPogtVnq+UBKCPS&JOH|yZ_rV3vL
+z5)y(3K7fxxj5kqekRas29?$HVGvni(A3wi+2k;cP@<?GOhjbAcWEo0r(GxrnVT*4!
+z+OlaGvQJc~>@$X$we|WOW-*sTzK8;f3=f+j@5CPz_hnBt<*_zL+W68${m9A=Z|cw*
+z9R$+w{YaY4k;_nsDX=SzOJlh2{hKHn0QsB!-&xfH=CP1Nsfg1kGu)e=f*}*=mI@gT
+z)+Th|Tg^R(eYLk;U7rA!p;fleYch%hTV+_P#T4ntx{6dIkT1eeTVa(BBZg(KEslh-
+zf{RhuW$M__9U0P_+NVYrJQd2fai<~8o*)i}vZtFOs0*W<KMbbrp(4`96B_*M!%)H5
+zV0cZ2JJX0lKhKu5huYr}Ms%bl6vG2gn--6{Mun|+F6=1yv25^$3jLE;-qDfW65TEV
+zi7L|*K}`3_^5Fxmj!QVIF{b7JSF6eQv5f3X?f0o#em7D3wQ>?Jjw^E4O$5WEDX1em
+zCg?P&NmnOi;BHK?LQ|Kbd1bU{?#M3EDNFVY*%aAK;+-XrlXbYv#uu<p$>+)t43uz=
+z_Tm75^H@qqX?&1QlAjaW6)J3eM(*}koJ!&29~6~@qB4LDDctD-F4Ff)j+l{yq{Vp(
+iEz`Pu02bj2u2L-L`ddj@SCjo(0xi?&I@uc|_|0DhGEZCp
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/dto/LoginDTO.class b/target/classes/cn/muzi/deviceworkordersystem/dto/LoginDTO.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..f127d9957c60cc8fb330f4f317d9b39cdf2d7254
+GIT binary patch
+literal 2841
+zc$|$^*>W326g@4?CTSciBDNzOf`c8fEZGXXcSsyNagZ0h1p*I@r7mk?X-3S99LzuD
+zo#F$?iyxp0OjRBzcnMW}6CvE58CkNVvRx(ha{KhT_nzC`(m($_{{z4r9>ozsRE4BN
+zhQg41Y#bQ*iec^L*LENCqQ{`jnwII!Gek!-J27a8sfg=HKxY^$TKQ`Idoy3+2WF8!
+zv7LR}DRIX=bUj|pmpnUPu=h;s?$#QER(H8$8CA}ZDm49UdX8!B%?Rd8I(h}IRx@0e
+z$V$R^Sw~73<yzUcc$_R(bo8O0U`4}P{I+gX82UyF?UB!99trSO9cjGIkl5qi_DKL&
+zMl+ou2raJZctdb2ToAj0;Y}Sw4TkkFFkyd7$FQ(#!XCsH!A%`+;~g@V4Y#~tm$<Ln
+za*EW>=omwmVW4X4^99=~8s0<GBar2KhUK{o4@NtKx`?GqE(}uOy|-Xme6?QP<<6F|
+zTk*xWi$-O~a7-}|jgnV3DS}+#;uR$ygBx|rGpl^rIxt<6h;Cb!?HQg)ISEG<ySi)d
+z=kIZgJBG(gv?bxT)}gOU#+e;Dhb!DG+og5GA(%(*gN+UONnbY<oq^e>4^&uwIx)6a
+z<_<%T$Ze!~`Y!qQ7DE82osfrsrXd~x0)L5cHJJ5mdPZ@7#i)fs%Ih1;D~lA>G94m^
+zyY&j)p;(KvSPQSxV9`7~$ew&{+I6SMmrTLd(-3<?<VU*Pv2D-w9HSNp<Z4)9$TU!+
+z4L5TvH`H+BkA<5#mg!Zn7RNe1SFs_E<0ivMQ#sQ*u=jabhv0-R8AZ=_4jF!EtyBmM
+zVz_Tur3!aP3bwspubq8hPi@>ftnn`Juex02PKpJiQrR>;PIcCoEjnKd70Q>pD(Lv!
+zyilkrzF@e1Hk4`<fN_Jae1xuXlv;ZHXcQ5zmEWiQJ^?0PQJUvymZuq`ULN}$>=z$4
+zPOTCcF+r^!j`O%h{k!4nd(<=WXmt?%3ianUBK2INp{_(d?L^wSM8jQ)lI=vXbBW%^
+z2c)7Pnx>sXQ)Mjs8`SP1^#_QMNsJOc`-cKSw-L!U`j5KP_gs{|x0SxPgZ|_0^vR3T
+zr&{S#9rX0;6VS6s+8QI<)9lz!kfo#SU(kMp96ieZ32h}ec8u5jDGdfzbJR>r<9{QO
+zmR{iUGw9=K=@^3z#Pw-8Ct4*f3ykstsb}a(%W0(rbYoi0iB?Oi0;Gi?HLW#3(vg1y
+z+OzyR2=pY&r<lYPt@q(OQt1{YG6EAbWQ)?HQ^YKdB;3Oi{RNpKjum{0c^WCG&^`Nv
+zMk*W(l68s>=51okLRYnaaY=>t68$P7^wHQ$Tn&b?)?q{3$u@B%@wXwYorq3UMi#0b
+zol!dZBq^CvnQE49x}$XT!yjA_HbK2Yw(aE1tTg8r=vs27Oy$v%*=JD4k1_JioL?46
+zETpAyMH58}mTpYT{*rvMB>PL(x|d)+a2Q4##Rl$R!GDm}ahFCB#PJyx{SpjQz)OA!
+z<}pBJ5G4>IKY{X!3=)aV7)c4nUJ<-Gj|f8_<c6VvkxrXJn9^cvBHOJ5ZqxDp$wM<s
+z-bIQjA)$~<=<*z+K>MrH`k<z|ygE@V`#T<x2;#A0Sfy_PTQrN)Xd4glCDQ)`#El6-
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/dto/RegisterDTO.class b/target/classes/cn/muzi/deviceworkordersystem/dto/RegisterDTO.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..5795043452acda060033029cd2f30e52ffe58e0e
+GIT binary patch
+literal 3367
+zc$}41-E$LF6#w03zmjfg2(%DEL@AgwDe(h8NGSs0tJ*?sOA!!dn_QbE$!^@;)WPxD
+z@yQvVaGdc~W}H4Kqd3EZqc1q)-z4I>yPJ<DD=jnaz2~0uyT5zy`JH<=fB*aNcK|b3
+zOJE2w6_O4a3PbX?v2GOVhP76>yn36LJqG23X_?+hhFB)M5{HJkiiD0~=nPY3tI%kD
+zZWbzh-7NFZY^P>B74EoqT#q*j70)g#@->qN&e`S53|h<Oj%74BLu#(O)RO0z*4nfn
+z-=SkvFl$Z2b&0PcoI7=-gi~%-ZHo)fZXIJ7XOJAbPGq}!$Yw2%uW@HOL9o3#(s+*8
+z%7%6B)0R<Z7|YD{pK&^SU4ZxNcpe8B)HUuc`m|%2Y$Wjz4(fPO5G!1;x?=hv9TPar
+zFig|0bdI@u6GeDX0e@LXrVU>R&no<rI&#9V3BNe5SZ+$kQ548oHQZ{+u5e$C*%WE`
+zs*cz2I>VlZQR5}sDjVKa(<6}OdWPk>3^y}_J9tJ<`{)s8Aq|2Jjn0`Cztn21a%b6C
+zt@{$&Wuv}gIHnkfPRXm9w5h_}GnEc4vv09wd1iypTI;5364z<VvOU8y>7-(<y4_f{
+zYlREk;*R0*3QZYyd!-nQ$U}C8YJQ%3RlBlaI0U2R++bo`6w10AN<p>ZwrgWN6O|vL
+zWA^6a4r`36*Y>L1VTg+iOaz6S@O|N6#1C|@$c`Y`bp(KBXJa9t>qrEEV6VerG#HI6
+zc}BT5Z!|+4<b}oA`E#`0S*l`(yRACibvfKgyl2sP55Ll8(>y!KAg#G%x12IRZ;FY@
+z9?g!59FXgbZF{cg7|kHhu7>Lj$9jO7_F^+Ef3UrnZ;Qo*A$B#xvZD$<OyDLyQt`1U
+z`&$eX-9($#x?SU;vcXL_Z<IaTxx?^nuUa86*v>`6s?@nVF=yMgR`coCVAI6qJ53$|
+zzY+1g3{sSgdVR_CIF*GyYf;6P>U3`IswguY-qu!CP`(d59ZHG?V0x`IdPe|>T6((4
+z8WIn!->1T!UR3Hwz{IzJ#>Z$>pb?{9p8O5$XCL+kwMyW`o7C!|{TAM){&*NIQqRPT
+zI6(9Z)Svo@)GdiJkwhc?MB0`_xk#d9KT&*3BKlTD5bf$GN^D6qjT4CZL`9k@L{cVm
+zze0`9_IQ8@nS?d$v(E?wU3w(@=ubw|k8GEIw3mK#fc~9m`s8-$Q@!-50s2!o9Yw!u
+zyY!-_JM?1%^z;!A=-C(k#Q^T-CVzk|ZRGxh_8sKdM(z)2^ZCgK*y9h$*mo&UO;MWq
+z3&UyY5q92#K9!ap;Dt8grJ|e{t&)}nMtOwPJ&dH~w9*4QQdIMz)zYc}X(32WYdxTB
+zF`gG~A{`f?L<owf6K#;RLA#C(q@o#|rjv^MID-;I4!*}(@(t15{2J%T7sDjJ!g;bJ
+zTtJQfOT;k`j*Da|s8ei~EENvP@h({!zM;&$M^+qnu@7@(C1?g{<xy4p2Rl?~k1?)d
+zi2gM87<&UV{y%10pfh~}N#f^QsQ+>D33X+m%*IpXmpf;c>7=Eu{AUN`ryo_p9cEur
+zuZpxKr%y;TzR3HN(^ZmKOXluDoqB-$tr=fhNd(eT7}13ALFh<P_Cs<fB)3D^qT+{?
+zPDt@X`=iCX80;lHNDK{J!e#$mu3>?!Axifrc;6TA5G8)m7w;r}5|@1Ou3-<Beer}S
+zKSFy#4v9ozjPeb}p3ubZct|+LAh#WDjI`Mm!jv9g7uoL(!Rlsr7atLzDSi4}={(k_
+zXo|?sxR5~PS|nA-^boHA{f}<%hiN?G(T!onpK%o*_#X|18}xq-hW}tQtfE5sP5%e?
+CVrSa`
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/dto/UserDTO.class b/target/classes/cn/muzi/deviceworkordersystem/dto/UserDTO.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..7e5800736f7dda30e8056fb3c6df3896fff21b10
+GIT binary patch
+literal 2920
+zc$|$^*>V#{6g@4?CV9LdV}k-A5KJOjHp(9G#$qrik-_ms0wiH9b=iZZ8E2+tLjHmG
+zR6Zbn@dK$!oGKnt$qT8<H-(VfGoxJvF3U5wZ=XKh_uSi8`scrAe*l=pgCt^z>rhOn
+z&=`guTDw-hVmX`n+ZzvgNib+LwquJqhIl5so`8Xbj--h`m<-vHldsl(u=8cUYnS*V
+z*V}fzGWYz)zTnk-S-AN%pL^F<Z!^T~GVvFi8x&n<b6OG(m>9$mgHa=_V^ujrss*<q
+zJUc?BObp{FgW|arLJhZ|3Xb5L+?!4kY}CXt94Eq(<y`-+W>pwQGR4l&rn7e?_ze>$
+zaFRjY<f1@FOl7j2hm<0nGVzw=)VL({<;pWA-o{x5omMUf2O4Qx+j^vPCf>oj41I)M
+zYlL~U4Ic$6cgva>M~))cviz-ix6A|i3n@z4q>1y$GaRd0+kD=2N|v}|3j#U5upHqt
+z6f&IwbZ^q*m_3d{N{5>d7Hx;$s#Q0*w`y%vf(*GOtFmr+wj4)JMQqu0fL!s=bwOL4
+zSgtw3uJVGjYx_3wTyY#%Si+`=<USR*y5Vl;Z*Yfumf&StqWWR3hPxuou2YdMa<S!>
+zmn@G&7PKqL?zhU`Rt!<7a-r_m6FHjcB@jWF+g_YeDbbN!vBf>&kP?i^S~mhuU?u`*
+zShUH|9S-_~iDumogp*B2|BA3m+l$stq_DcQTv)tL=O|Dqdfcy7=!(XJP1J}p(X!kS
+zZWtf!yW-Zo5?`<-#*E}YFC!tvuDY)9g=g)A()k8f7|ukXj9s2(6Q}E}(v~~Tvh1LS
+zwItSYN5_}4EWctHYieUVyY4oR1P&{8!72&Yd(7}-tH2R3-20~Glq=jHE4uD>ZRgdc
+z+qQ7^@ec0+zt`j9cT>z;mCA}OIAzi-I8<r#70dUzuj4+$xkDXQ$2Sb8UJa$Bg<zba
+zrVyj+9H%GsQnF&Q3kGlMarEv3lTDe%@6jkvBSvp^{CBWl0@(ZX)Iujdpr;wxAL1i=
+ze;mzzLT@HpTo=)=(4Te?>8~ZCF4lvnzmv##EfKZO9z;hvi4w0R`V<#PMM*S8E2XB|
+zc<wjoy+s-g5fPKL`U3Wg5<!iEQqWF6h3Q`O{fDKONo~*%cG1t!w{Q>oBZsAzwbGy;
+z?xLsftdO2vprr}&J;{y#3{~0B{RQJEsPX;WpD-3D#t$$O49Q5}nxMy&GWj?9(#mrj
+z*@HQmRu1rH9dUX}osds0txAmc9H~9@r`5F90vemrC*;#e>k?!{AU$o=LCSt`13II;
+zA0D(3<rB=|63vg`dt4@83}diyg?w@Pnk?ZeSqg4o0rO<3SR~XnvNTlao?RzPheuan
+zfh>b?Kn|vE{EGn{#tV$<h|$MjFK|3G6Rl=l+_?^M75O70%H2is$;_xy)%{nbPHhCG
+z(jhN3Q+K&5b@T%uyddm6y*2W!4NcD|vq6GR4oz=SdW@mm9`wlrWFE{0X;I`vT8U;1
+znY3_fY)TEL)W(z=Or7kVg1K<R=(KSx<0cA0Lt4UTWW|ug=kzC2aF$jSgA~k>B#S``
+zq{xq;y(EW1A~Qx(g0YtbZ;oTqF#@&jsAH6NR|L~qd`)Dhm%tr5-fDEL8QNWjn357o
+sO{8ScFadOSoz{k$>d|%LxE-um!WTiaV_2pCW!$AvlB|398s8%QKbuq?tN;K2
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/entity/Result.class b/target/classes/cn/muzi/deviceworkordersystem/entity/Result.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..1a2f304502c0f2cdc24266dcc702d651ee49fb06
+GIT binary patch
+literal 3670
+zc$}42>vI!T6#w01H_t5%r4M2eTP>I-Edd3QK6sT^wGV8tNI~T`xwK1?-J0Fhseg(3
+z#c%dYKj4gjgENkP!5RN15zpP-q{(KXbf%ko&$;LR?m54E&e`oh|2_Kyz%(|Z2r=Y}
+zM!s7APS2Obrd|}^nzgc7D~X!5W!a*d7ly6dTlpnn)hl)a42lL75r)W=Zs_)ThD>H<
+z?jhgg`3g7I@&&u58*7s-n#I+JqG(T!F2`wiOhX(AhNx997KLRouobD-G<4wr>8qsV
+zYl5Mt6I2?eG#o?^xl!UaZ@2Oel1}z&=tDmpSLDXkZ|c0l(3c7DX+;_z){w?q3~}8m
+zG`tFD+_fVb-o{ae#G0_@8?N<cMmwELU<kueysP0od2-5s7%?WKCzgagrr|i=r*H}O
+ziW5jXW;2u_jB3atN1?29YkkHn3CFqF1jcb9ioAxCIMsHX>knaX@=9GSK43T=6nbX_
+zJ(Lw6YB-HE3<FhO7Bi+%<o0ddrgII;=7vqooZI8NJ<Tf^IxDm1V<&`VhD(8t?IR&4
+zDG^*wy61F5EYz#3qIQd~R-6Pfi@dVTYr2#@Wolm7>t^XDukos|36uaHaJ}O5r5VKj
+zd<j=AB0gl687_Embz86G=X7iTfu;Na4E^mPZEZBd8u8gqb@F<i_QwnQn!)XQjkXm0
+z4hHVo_ifngI&nI_&uxQCb<$MDtg)$EI)!w}Fie}<I^~_b$%<KBHOu+y!VooXixO=~
+zSi)|WtCCrf`6PACD(wrp&}G?r8Z{T#63Bv?4613biyAd18PG_xD|I>QT{-S7yS*sk
+zuDL>2!RE#CJm2tcNWHl<JAak1XQ>g?oVcl`cY#!IU(7Ze1)M0D^;%I})8+o8%hd_#
+zFy+Q&)3hzS#y8x2wqht!7PvMUueVOKu^|s%P9^>{8|{ujB=7)hQLM{i*J<A_3%aps
+zmW4-`TmRR1(Kc&a4BxlX<r%ui-{3~6BCL@)(=69F0=mJgHp&zZFu(iye&s>T@Jgki
+z+k%oon>8piW-8pWgcSvq^RYK_H41~_=<7}CzFcDrQ|BI{CK*OZzQt%3l5Z_%q?Zzn
+z-K3A>9LW<TouOXGXiWYNc1K~^rwBiCj3?<g;w+^wMZcPB=7CJpqcRdeSm$ve2rZmt
+z0ceNX&@MWzd1x0Mv`e^5-b=LW!M=rC&<1?I&CqzIO>?!~+iQ+H*J+vFr=Hh&lBBts
+z{T0z2pTAu#C#blASsFj_RzIbY$(L^cP|_dxfjxofbsGTG?FZ`K6KD?e9)%OMGbGot
+zgO3sY#fKDkkosK<4@u5s;;;s5aY}%8_ysI>z~>$#`KItPADi%99q>2tSrB~po5ITs
+zWxIFoho?^;7oJJ*DCz3C?9Wh@o!nnwKSB-f<o*PkAIm<$AxEUiz!*J0dBWfVNrMy0
+z_}@sTmFGCP4Q)KFJi$8+^N|U4O#VjFs<eqbN6$98(rP-=Fj97Wne0Y$!*!?`O&v>4
+zG<~>_0_j3HMfrV;bYYyO!uy<N3dzG*rkRQr4B|G;BKU%K4<iwc{fh%pFzp5UqZp#U
+z7<+-k?lj({X~{>EBEL<&TR2BL$+0T=@s~&IC8$leRdTlF5(*ucK%a|ls<R}GD(Mzd
+zlT*s{k<{e6r27ZNQj6PAQ~dt4!?;`^zGJD}HlpKCka6@Q6N+3&E8a>>-U2Nh31;`S
+zdy?m7n0&cIjM0mY<hwKrQ6-<mJ&)Z1eCe<&nG}e;Buc`>B%{(~FKL%2grsx`iX#!J
+z&T6<tb`1KUHWUpTrCmj4K9as_HkJznD8uNJ+(<rT?7v~`89o5~{UP4cANm6O1AX3h
+zG@7UQ$X{TIJsS=Em*pkNJ=&?z*eijYW|JMGmXI9}DBPrjn|1A*In(R49XXR7BIL{t
+oI+r2ys4MKWBH1teMIFZ1&Jp*)X^fG!M9(T7Izcd$QH6>0|8)1t3;+NC
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/entity/User.class b/target/classes/cn/muzi/deviceworkordersystem/entity/User.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..f5ed7f92d0eb323bb4340e9c066da3ae2ab1021e
+GIT binary patch
+literal 6677
+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
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/mapper/UserMapper.class b/target/classes/cn/muzi/deviceworkordersystem/mapper/UserMapper.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..df838f745c64753102408e6c251747bafea9c3f8
+GIT binary patch
+literal 409
+zc$}4xO-{ow5QU#xXlMb!mJ6_C4iG?s1*;$=s<L;IQE-Xv$UjBlXe>AYhe9~1P$d>f
+zjN}<h<N4-2e}27x0Jy?&hKT@GhID*WRP#nv{A%5cbu~NR`@ovC>^gR|^6c)%Ylc06
+z)3w}4YNcuDp<HtnGRy{))l^EWRc#~bzLY`vu8lr59RHwhrROb5V7^q1ks&%3=!)Oa
+zy!a>ZviRE!o1j8Jn#r$ofyL5BSMi-{)Bcm4$BRLUz}aI=1Dc<dS7pmL#@LV)SmOoG
+t3+oz^ovfaj)F_PP?g4E<dHNNBX*&BDVu~!~2@WtH>jH<V&Qkvf_y)TTfm;9o
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/service/impl/UserService.class b/target/classes/cn/muzi/deviceworkordersystem/service/impl/UserService.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..a0770d4d03e3bea55d6eb5ea7a76ff9781f9fb32
+GIT binary patch
+literal 5616
+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
+Ca^!&k
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/service/IUserService.class b/target/classes/cn/muzi/deviceworkordersystem/service/IUserService.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..fe898827c029d3696b94f43032164346b330ebd3
+GIT binary patch
+literal 627
+zc$}S*OHRWu5QfKvke2djIR$JmVjEzEkdT6k8dxDAIf)fq?6~+*6pqG%18^wBxI`4O
+zfWpG|%;=xdr}_Q*_WS|>$FLJahrnS`Q{|roE%{6o{85{GZAxxzV;xu2audq*{2HU|
+zBZ*;^z+l2=j7nBlbd*nc;bK@La8PJPbEcIjwWq4dnG<#@y`^?)1ZqF$wX+CBQdgoT
+zaI>5Kj8ZyH)1W=Q8YO$bh<WXVYv`C;FI|GT7u?<H@{$>*xI-C%u55>4Xm};C&k(p>
+z24mdH|3lI@i)I47OjI><-ry!4((gM>(!cKWXgQkTW^#fw>zVeZ;AcW2!0@Zf`vC?m
+nC9r}g!Y|W7+hgcr*265qW(Yr_4;zcpX3)Xb{N9Ga{2jgnSJ20u
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/utils/LoginInterceptor.class b/target/classes/cn/muzi/deviceworkordersystem/utils/LoginInterceptor.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..dd06185631c2c965acbee3f150bedeac008fc313
+GIT binary patch
+literal 1506
+zc$~ddO;Zy=5Pd@y0wEAW06zc~@gs?lRiwN`t+G%HssdPmIdGdKLo#8ryUtDmSmlrK
+ze{k_6dhlwMKgzOaHx)!F;pAawdS<#`zkbs@KYo7w2H+W%6X-)M4l9X%3^0r}d57B$
+zckA|Mr75bKVc@BBrGCy3%jU`n3}PsbL=wYDG8C$=-D<y=c1?6-RUCL~-%~ZAf}=o-
+zmfhCU3GBClP^+Fp+YIr#&}PlBn9Y^`9bMC282fT(vp9@Vq~aJ$B8_o|Y?JSErMXSV
+z9Y<)pp|x+X(y$$EY>B}4+(0l41wwCYuG;~Fm0gQUm`GyMl$%hZ<#mL~62}#W<;&Dl
+z^6JuEbG1-a;cJf~uQ4ons%{6ql5TxZ@m3gWABaki;VO4)j!?hF5uX*WMif&e>57eZ
+zt0L46uQ;?bUh=BkDRU*wy1QxVhNL2%Tp-)|B#WekuSCRxp^+_JEaAJh2z2ohj*-^J
+z^KA1JbGvlqDgt82T{<Vjpz7UV{_+ecTO-ohX!sW$h7oFo>i#<SyP76m9U6TkMaPk6
+z$ehOXPUx>#7rNoq-f(lXBq`lOitmxJ;<bFrA3A;bKa!TtVOY$S8T!N_!{oWg46|Ep
+zSId?t%RrirI`YK}*Y)VXFr_ohmrVaQ17B3--jU5u&+Lu1;~23BC9&<bsh?g;Bi-bm
+zEmkn8F^4I7QW&n%`x2v>o)sFe)5@lq(cGW^4EBkPK1|a%5N?iQhQ?&%fLYw2nc*gG
+z5r_%)$=jkibAtGHj4q_v$1fP6x9iwC4l^03@z5nrkQt;fLDp0Vn~y@fu*RCh?J!ja
+z^SDFM#=47pgmXXQoko@ni=1+JK-Nf%VnE&?KSON+i*#(L?S_=e`2?BMvJxTcG-1tz
+u9F`-W9tW$(!Rm3ax*UvEAib<VNTjVZBntFBq;Cjpih>@6yp}=+kADH*B8h1L
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/utils/RedisConstants.class b/target/classes/cn/muzi/deviceworkordersystem/utils/RedisConstants.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..1f69eed9b7305f9964e0aade41974efabb8f9829
+GIT binary patch
+literal 420
+zc$}3`Jx>Bb6r9I5CkTQTmUe34CdLXs8iIvfAQ5uL$}D#qTsU@<y*-TnD=QNVe}F&A
+zxOZxdrOmvZ*~z@gd;fTS18|NV4+RvfC^b+<h0tE`HD@tbb2gqWL}&?>GpVG#AQblx
+zf+}i+<500x`XpH-)-n_i+AOt+gh?I~D^@JEGEUgFh-A{&DzRMIgixQ3hlA1GaBxfL
+z_`ho=)<`u!B{YA`0gqErLzCcL-AsE{FNNw6N_`y(Ld%y*jMCLim?@vdB1_XDj{|OG
+z#=pgqy_at5iU0quu8TL(sR_lU%%Zw~zmKx+*hAG_4j}BJ4$sXE#|mh;7iG6}xaky@
+fbD(_q0(#CZEr*p{ETZkO@nygkI(c9>cWr+HGQVdn
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/utils/RefreshTokenInterceptor.class b/target/classes/cn/muzi/deviceworkordersystem/utils/RefreshTokenInterceptor.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ba09b9f6702d4e20ffaf01e66232020697fd0283
+GIT binary patch
+literal 3107
+zc$~dfYg-dX6n-acSP~XdL~XoOt+xay+p4WKQCq<a&<IKZE4>cMkZjoO#@Sgew)W}Y
+z=zs7_`&6p^(8tgHO>Li^*+njeV)R3K*vagfGjrbap3CeXfB*J7fUEdEjRe|E7#5Of
+zXV_cki`;g(SG6bR>Y}U|+OIgCqpmTuWpgtrbRcCSZJ`quL!s>1jqs6USHz-I7E8Wd
+z@MT5FU?otZVTa0b1A9`;OA*wj`~~5SdP>N$XewVa><^T5yy~Q=IKh-?G+nL)!{wqc
+zt9H=TOY@R9qEqb(SKO9b(=Pi`*rn}T3mV)W3*FeuVAhw^G?`}@Ebb1n?0fT0)gFuW
+z3mxcT=;EQO`O<mBmE(Jz=*0mO2Q3`JTMXywe1S`X69~EJ3T4-nYT6?-lw!f8co>R+
+zs7qCa8WEgqF`Ug7H@J<_7joN0X&lB86Gtr^!`lo;2zxD5zVF6vYeuzd?3(EWL$rB;
+z^fsS9T;sB&F?eNB$jzEK!EnB{ND-aGz85I&sh|VzFr>%sPvw;kT|SM|IAh|hg>%Sm
+zNtGBorHU)Os;Wh)GOE@4Ec9c5hzP>DU`^>jc63L-2Vt9d&%*mS&v5AtbAX}KZw9w~
+zIm6wM-Y#WxEu~YWKG7613V2ZH#6^5y;zJ9U@Dam>H#mb>pz!}I@NrRX3H+KUjXVk_
+zu2@u+lw<?1le843CYOPTO3cK^47uI6SCns0Q~KVRnn>e1hD;1wxPhAthc*(f9{8R;
+zR+<=(O|&b2NN`Vcx;=cGv(M#0u(OA^F=ArW!WcfKx@;vQHOLX)jVh=k;EO^FXm9ov
+zMZL+vLT)Ar{m1V8kirD+nz(0S5+#OX5yq&dh|qE<rSOzJ<ut@JwLGe?(#_$C@f)Oh
+zytu1sl)lpzW^kW~63b0TQu5v2A@XCdIA}9(LlgyKJR<Iag<0L8(^542m<AJHP+jko
+znM-1By*Z6=ui^^1rSaCYZ`@;FubJj%7>r@RLS%Fo9Z!shjX5Ew_?%0Uo}ypo?hKcX
+zeqR$Bs^(DXTz!R|U2m2GHK#j*8hGU{*Ur%b9hquM5tG4C(~)VZi5FT>44PE#qOe1m
+z&r%M_m$yN#Wt)`ia_v-xzSa?twOSl*&F(fh49TdIZ(UrgU}{%%Wil|L$_(SuVd#I2
+zI-_f|q<DGZ4sWgnGktSeM?`l+6Cqvr8&=m>C^PsxMQGTk3=^^B@&6N^;tp`4lud|b
+zx~Fzrrlv6&dWy<*#t9sqw<}F?-Sd3)vg@CUYO5YJMcJ8OvH8ZDJs!HQW`<5lm;8{@
+z^_HV~I{F`pJg5=iBz@K-!0<VZ3H^0Ly)2=>zv#D(<Vk!<?_bf|1N|{azukSmg7x)3
+zh1oao6kR_>8@{Ho2L_G3G#)?-2eF5~XucuIiFg}0=Au^F9Uaf2nKqa}ndT{NRg0*X
+zq5?si$SONX2s%hs?eE$59QzZ<8yVvnGCv||Jjob6Cs%Q56}fz}?-!V>csFA_$Atu5
+z;B>w{)BaMC7P~UZRb1}5_6(oAz_q-YF`wa<-jp$VQT!R>tC+fPJc-=a-V8=?4kL{t
+z<k?a3>uvJnI4;mwAlk0t6z<Yj$TZFn*t3zRlQGnFPpg=xhefj*9P(7p>R2EfX(HA|
+zgV;Jj9oVB;lFq&epJwfJ@*y<w5GEw;*@wiR=rwWrFJx(?e*`2p=x7y@*VRUrKsG?9
+zYXTRsM9VsCv-IdIib(rxBUb4MOF!Wlh>%~5b=Hv^>&T6D<i;9uJzK^KjaxzNGq!+O
+Urst6kECrD^eH-EWE<*75A8S)^fdBvi
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/utils/RegexUtil.class b/target/classes/cn/muzi/deviceworkordersystem/utils/RegexUtil.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e6c690e00765ffc009580fa9542542203e1e6342
+GIT binary patch
+literal 658
+zc$}3{%Wl&^6g`udTgOR5NO`}yOCpL}g}hW?0TQbeB2v1j@nT|+l4)YQvM1#gK7@bh
+zhE0)Juw=nUA?~;p2v}js_xPSU_Z-{z`;RYQ0X)Qpi43v^au)I^FjNltF}LSDoY>FD
+zhr&|~g$FW}>JdY>-q<&>f>i^ig(9p!<RcZ!aKd27<S`MmRDZC7GDCm6?zDQYv$ffG
+zm-n4^m!M5u>uy^!9jD_iyUx~jtKI4L+-2YC_1(rR|9$U+j;mO>fGQaWTzONGFs#=H
+zf9LKr4h+;7Hoede7Vo6(i(~1D*HJu+Vqe6`+eC@LUMM+F>=$Ap-n^tohTN0L7Yu6y
+z8H#6%U@YQ2KAsa(9Yh|V@AFvd{+!IIsib^+@LwrA=}#F>qmV4}M`u|5_Y)XOBgMVh
+zE<ZZYtLzFjjr<{xc_0+|Gnk`j5qsjP)aT`28TYgsHgJ*Fsjm!}UMSUd>TE(rm~Vat
+z`;;DEqFPAFEG|>E&IGuEtAwk#hAOG_@Gvz4YRzvjo2M{7BA-2JR!gT?J4xrYSD8@H
+i7s<6mTl?)<!*$#syh(QsnIgk2tz<-l1h>=Ix$_fPC6QSG
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/utils/UserHolder.class b/target/classes/cn/muzi/deviceworkordersystem/utils/UserHolder.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..fe9b7ea15b4a436c8310295382ed5bcd45f6dd80
+GIT binary patch
+literal 1083
+zc$}3}O>fgc5Ph4ZvE!PiEe(b8QD_U;DUA`=gkGo+hd_}UB5~Z<tHi~QrL`Rdzlws?
+zN+2Q5{3yiiCTgls0g<I0&G^lmH#@UGe|`N9;3+%{1r!aGY%HM6uzbu%+>7|I?;ZAz
+zg`Y8$Tj4Ow_8E$f+pWMv#eijF5jI1^A9`{AG4uj43VrcDk?#^22$_CJGZA}v7DlP}
+zCKd8U5>c4J$}c$U?P;~nKnfnT6Q4&-3rnaPShlf(RfgK7DAJP(l2>!uvznW3S5d6l
+zsNovn`U<z^xPJl-TxW3q-b9ckx`l(zp<>;zaZ}w?S&BFr2^A_bRF1;_kY~9R3<sCD
+z)oTBDo#uX%q4X>Xh^^WVhvHQp_k`^5UPO^qP1ofzRQ@Db$_8P|@c17^W+y^*%#@FW
+ziqJTnIW)Rms+#M(-8s@|$6ktTkOZ%}<gv&I#9+{f#uD~uO!JUg<1vhr&6Xccmeo2+
+za_Nibp}L&vwBd%D4erqz7w7>nY^X&hdz-uh?$9e>>Lt**NfD1MBfC&P13S@>yL6Uy
+zuuL@2$ppX_w#inogZqS1$xq0tf97Wx^;2A#%{MRPn|OeSWF5uD$Wc@->JuGX8U$EG
+zb&9J$u>MJ_pORJR+dbF4Il&tmf8%5ZY*D>O=iqI96~N**EWJI$tuHWU6AU`{wEV_z
+DrNjTQ
+
+diff --git a/target/classes/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplication.class b/target/classes/cn/muzi/deviceworkordersystem/DeviceWorkOrderSystemApplication.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e83700424da8f669acd18118440f767de978bde8
+GIT binary patch
+literal 810
+zc$}qDO>Yx15PfdbY`UahDHO`bfdf*SLw)Nd5CK7)7K#W;51hOkck8liM_z9W{Z~DK
+zIPe4bQHZe{se6dT0Uu`MH#6_ejQ#u1&tCvu;7N=XtVU>cv4%Fo_PMwaybwC)$LYDu
+z97FrL(#nk(R{ICj2pxt|rg>RkDL#`IDwCJSeld0?ZS}2kvgB_9dP3;2M<)S&HJ=wM
+z6HXZ&BgUNw-7Yq;$uKZB=hfUQou67!20ES^<M<?ijY{gl)@0Lua@*&)5LGq&+(0JI
+z*9{MnWz3n;PJVTKZ1kzhYb(-1HYCP3;UPn7Y-W;SD^Xg$ugg^0Pd=BSmzYcxQ(=|A
+zFTj>NQx(I@<o|Z#bxWaW#=ZWsk){+EHYcUsC1HBMcha4i*$3h0btKCWPfTqy`BwQh
+zpZ%+WLr==E|FPCim2#>o<rk#2aUo8GqosQdFD7bdvc+QM;{9GzpgAF)BBD>{&kC6T
+zc4W8c#>q4CYlH7#*CD)3wjID2J7l{z3Fu*${5tO99%cFBqd*39dePtq)=zHh;~=&{
+cqMHql4)$=L`~%NN+Yagb!9K*Jh3sSCFVU;rUjP6A
+

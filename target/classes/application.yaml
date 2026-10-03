@@ -1,0 +1,36 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: device-work-order-system
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/device_hope_system?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: 192.168.86.129
+      port: 6379
+      password: 1234
+      lettuce:
+        pool:
+          max-active: 10
+          max-idle: 10
+          min-idle: 1
+          time-between-eviction-runs: 10s
+  jackson:
+    default-property-inclusion: non_null
+mybatis-plus:
+  type-aliases-package: cn.muzi.deviceworkordersystem.entity
+  configuration:
+    map-underscore-to-camel-case: true
+rocketmq:
+  name-server: 127.0.0.1:9876
+logging:
+  level:
+    cn.muzi: debug
+config:
+  jwt:
+    secret: Zm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFyZm9vYmFy
+    expiration: 86400000
